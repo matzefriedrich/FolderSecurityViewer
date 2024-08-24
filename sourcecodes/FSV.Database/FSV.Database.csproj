@@ -48,13 +48,7 @@
     <ProjectReference Include="..\FSV.Configuration\FSV.Configuration.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="SQLite.CodeFirst">
-      <Version>1.7.0.36</Version>
-    </PackageReference>
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
-    <PackageReference Include="System.Data.SQLite">
-      <Version>1.0.118</Version>
-    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.1" />
   </ItemGroup>
 </Project>

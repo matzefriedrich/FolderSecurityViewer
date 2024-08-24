@@ -96,6 +96,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FSV.Extensions.Serializatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FolderSecurityViewer.UnitTest", "FolderSecurityViewer.UnitTest\FolderSecurityViewer.UnitTest.csproj", "{546EB7C8-691A-4D3F-844D-B92486C3CF7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSV.Database.SQLite", "FSV.Database.SQLite\FSV.Database.SQLite.csproj", "{9F5611EF-7FF8-4E60-BB58-229436A6D9DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSV.Database.SqlServer", "FSV.Database.SqlServer\FSV.Database.SqlServer.csproj", "{C013EB56-9684-4EB4-B60B-1A3A256EB709}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -274,6 +278,14 @@ Global
 		{546EB7C8-691A-4D3F-844D-B92486C3CF7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{546EB7C8-691A-4D3F-844D-B92486C3CF7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{546EB7C8-691A-4D3F-844D-B92486C3CF7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F5611EF-7FF8-4E60-BB58-229436A6D9DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F5611EF-7FF8-4E60-BB58-229436A6D9DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F5611EF-7FF8-4E60-BB58-229436A6D9DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F5611EF-7FF8-4E60-BB58-229436A6D9DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C013EB56-9684-4EB4-B60B-1A3A256EB709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C013EB56-9684-4EB4-B60B-1A3A256EB709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C013EB56-9684-4EB4-B60B-1A3A256EB709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C013EB56-9684-4EB4-B60B-1A3A256EB709}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
